@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hello</title>
+</head>
+<body>
+    <h1>
+        Hello {{name}}!
+    </h1>
+    <h2>
+        Today's technology headlines are...
+    </h2>
+    <ul>
+        {% for i in headlines %}
+        <li>{{i}}</li>
+        {%  endfor %}
+    </ul>
+</body>
+</html>
